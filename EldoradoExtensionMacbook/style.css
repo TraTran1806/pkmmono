@@ -1,0 +1,53 @@
+body {
+  width: 450px; /* To hơn, rộng hơn */
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px; /* Tiêu đề to hơn */
+  font-weight: 700;
+}
+
+textarea {
+  width: 100%;
+  height: 300px; /* Rộng rãi hơn để chứa hết data */
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+  font-family: "Consolas", "Monaco", monospace; /* Font chữ dạng code giúp dễ nhìn dữ liệu hơn */
+}
+
+textarea:focus {
+  border-color: #ffb600;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #ffb600;
+  border: none;
+  border-radius: 8px;
+  color: #14131a;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #e6a400;
+  transform: translateY(-1px);
+}
